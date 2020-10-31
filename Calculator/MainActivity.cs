@@ -4,7 +4,6 @@ using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
 using Android.Views;
-using System;
 
 namespace Calculator
 {
@@ -14,6 +13,8 @@ namespace Calculator
         private TextView calculatorText;
         private string[] numbers = new string[2];
         private string @operator;
+
+        public string hello;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
